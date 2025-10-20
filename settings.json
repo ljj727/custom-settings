@@ -1,0 +1,484 @@
+{
+    // "editor.copyWithSyntaxHighlighting": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "window.newWindowDimensions": "inherit",
+    "diffEditor.renderSideBySide": false,
+    "window.nativeFullScreen": true,
+
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.autoSave": "afterDelay",
+
+    "editor.emptySelectionClipboard": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.detectIndentation": false,
+    "editor.minimap.enabled": false,
+    "editor.codeLens": true,
+    "editor.suggestSelection": "first",
+    // "editor.lineNumbers": "off",
+    "editor.guides.indentation": false,
+    "editor.hover.delay": 1500,
+    "editor.hover.enabled": true,
+    // "editor.matchBrackets": "never",
+    "editor.colorDecorators": false,
+    "editor.lightbulb.enabled": "off",
+    "editor.selectionHighlight": false,
+    "editor.overviewRulerBorder": false,
+    // "editor.renderLineHighlight": "none",
+    "editor.occurrencesHighlight": "off",
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "none",
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.fontFamily": "MesloLGS NF",
+
+    // Silence the Noise
+    "breadcrumbs.enabled": false,
+    "scm.diffDecorations": "none",
+    // "problems.decorations.enabled": false,
+
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.copyOnSelection": true,
+
+    "search.useIgnoreFiles": false,
+    "search.exclude": {
+        // Hide everything in /vendor, except the "laravel" and "livewire" folder.
+        "**/vendor/{[^l],?[^ai]}*": true,
+        // Hide everything in /public, except "index.php"
+        "**/public/{[^i],?[^n]}*": true,
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/_ide_helper.php": true,
+        "**/composer.lock": true,
+        "**/package-lock.json": true,
+        "storage": true,
+        ".phpunit.result.cache": true
+    },
+
+    /**
+    * Code
+    **/
+    // Include "-" in word selection.
+    "security.workspace.trust.untrustedFiles": "open",
+
+    // "material-icon-theme.saturation": 0,
+    "diffEditor.wordWrap": "on",
+    "notebook.output.wordWrap": true,
+    "explorer.sortOrder": "type",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": true,
+    // "explorer.confirmDelete": false,
+
+    "vscode_custom_css.imports": [
+        "file:///Users/ijongjin/vscode-setup/custom-vscode.css",
+        "file:///Users/ijongjin/vscode-setup/vscode-script.js",
+        // "file:///Users/ijongjin/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ],
+
+    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+    "editor.suggestFontSize": 16,
+    "editor.suggestLineHeight": 30,
+    "editor.wordWrapColumn": 120,
+    "editor.linkedEditing": true,
+    "editor.formatOnSave": false,
+    "editor.fontLigatures": false,
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 22,
+    "editor.minimap.maxColumn": 250,
+
+    "editor.accessibilitySupport": "off",
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.cursorBlinking": "smooth",
+    "chat.editor.wordWrap": "on",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.fontWeight": "400",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.padding.top": 16,
+    // "editor.cursorBlinking": "solid",
+    "editor.stickyScroll.enabled": false,
+    "editor.largeFileOptimizations": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+              "scope": [
+                "comment",
+                "keyword",
+                "variable.language",
+                "entity.other.attribute-name.html",
+                "entity.other.attribute-name",
+                "keyword.control",
+                "storage.type",
+                "comment",
+                "comment.block",
+                "comment.line"
+              ],
+              "settings": {
+                "fontStyle": ""
+              }
+            }
+          ]
+    },
+
+    // "workbench.colorTheme": "React Theme",
+    // "workbench.iconTheme": "eq-material-theme-icons-light",
+    // "material-icon-theme.folders.theme": "specific",
+    // "material-icon-theme.saturation": 1,
+
+    "material-icon-theme.files.color": "#42a5f5",
+    "chat.commandCenter.enabled": false,
+
+    // "workbench.activityBar.location": "hidden",
+    // "workbench.editor.enablePreview": false,
+    // "workbench.editor.showTabs": "none",
+    // "workbench.tips.enabled": false,
+    "workbench.colorTheme": "Dracula Theme",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "workbench.activityBar.location": "top",
+    // "workbench.statusBar.visible": false,
+    "workbench.sideBar.location": "left",
+    "workbench.tree.indent": 10,
+    "workbench.tree.enableStickyScroll": false,
+
+    // Git
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.replaceTagsWhenPull": true,
+    "git.openRepositoryInParentFolders": "always",
+    "git.decorations.enabled": false,
+    "githubPullRequests.createOnPublishBranch": "never",
+    "githubPullRequests.pullBranch": "never",
+    "gitlens.hovers.currentLine.over": "line",
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off"
+    },
+    "catppuccin-noctis-icons.hidesExplorerArrows": false,
+    "symbols.hidesExplorerArrows": false,
+    "window.commandCenter": false,
+    "database-client.autoSync": true,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "github.copilot.inlineSuggest.enable": true,
+    "github.copilot.advanced": {
+        "enabled": true
+    },
+
+    // ColorCustom
+    "editor.showFoldingControls": "never",
+    // "editor.lineNumbers": "off"
+
+    "workbench.colorCustomizations": {
+        // "editorBracketHighlight.foreground": "#ff79c6",
+        "titleBar.activeForeground": "#ffffff",
+        "titleBar.activeBackground": "#1f1b2a",
+        "titleBar.inactiveBackground": "#ff79c6",
+
+        // 활성 탭 (현재 선택된 탭)
+        "tab.activeBackground": "#2a2139",
+        "tab.activeForeground": "#ffffff",
+        "tab.activeBorder": "#1f1b2a",  // 하단 테두리
+        "tab.activeBorderTop": "#1f1b2a",  // 상단 테두리
+
+        // // 비활성 탭
+        "tab.inactiveBackground": "#1f1b2a",
+        "tab.inactiveForeground": "#d0d0d1ef",
+
+        // 호버 시
+        "tab.hoverBackground": "#44475a",
+        "tab.hoverForeground": "#f8f8f2",
+        "tab.hoverBorder": "#bd93f9",
+
+        // 수정된 파일 (●)
+        "tab.activeModifiedBorder": "#ff79c6",
+        "tab.inactiveModifiedBorder": "#6272a4",
+
+        "statusBar.debuggingBackground": "#28684a",
+        "statusBar.noFolderBackground": "#38386b",
+        // "editor.lineHighlightBackground": "#404346",
+        "editor.lineHighlightBorder": "#404346",
+        "editor.selectionBackground": "#2f4d50",
+
+        // "editorLineNumber.foreground": "#00000000",  // 투명
+        // "editorLineNumber.activeForeground": "#bd93f9",
+        "editorLineNumber.activeForeground": "#def50c",
+        "editorSuggestWidget.selectedBackground": "#1A1B26",
+        "editor.background": "#1f1b2a",
+        "terminal.background": "#1f1b2a",
+        "badge.background": "#1f1b2a",
+        "panel.background": "#1f1b2a",
+        "statusBar.background": "#1f1b2a",
+        "statusBarItem.remoteForeground": "#ffffff",
+        "statusBarItem.remoteBackground": "#1f1b2a",  // Remote 배경
+        "statusBar.foreground": "#ffffff",
+        "sideBar.background": "#1f1b2a",
+        "editorGroupHeader.tabsBackground": "#1f1b2a",
+        // "editorGroup.border": "#bd93f9",
+        "editorGroup.border": "#1f1b2a",
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "entity.name.type.class",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "variable",
+                "settings": {
+                    "foreground": "#ffe1c2"
+                }
+            },
+            {
+                "scope": "meta.function-call.generic.python",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "source.python",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            }
+        ]
+    },
+
+
+
+
+
+    // Vim
+    "vim.leader": "<space>",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.sneak": true,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.togglePanel"
+            ]
+        },
+        {
+            "before": [
+                "S-H"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": [
+                "S-L"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "/"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "/"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "c"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "/"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        },
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindings": [],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "h"
+            ],
+            "after": [
+                "_"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "l"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.splitEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "]"
+            ],
+            "commands": [
+                "workbench.action.increaseViewWidth"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "["
+            ],
+            "commands": [
+                "workbench.action.decreaseViewWidth"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "="
+            ],
+            "commands": [
+                "workbench.action.decreaseViewHeight"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "-"
+            ],
+            "commands": [
+                "workbench.action.increaseViewHeight"
+            ]
+        },
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        }
+    ],
+
+}
