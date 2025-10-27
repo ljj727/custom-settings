@@ -1,0 +1,15 @@
+# 백업 파일
+*.backup.*
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# 에디터
+.vscode/
+.idea/
+
+# 임시 파일
+*.swp
+*.swo
+*~
